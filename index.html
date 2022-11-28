@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        .input {
+            background-color: rgb(220, 224, 229);
+            color: rgb(0, 0, 0);
+            width: 250px;
+            height: 25px;
+            font-weight: 200px;
+            font-style: italic;
+            border: 0px;
+        }
+
+        .First_name {
+            display: flex;
+            flex-direction: column;
+            height: fit-content;
+            width: fit-content;
+        }
+
+        .last_name {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .email {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .adress {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .gender {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .container {
+            margin-top: 5px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding: 10px 20px;
+        }
+
+        .button {
+
+            color: blue;
+            margin: 2px;
+            width: fit-content;
+            padding: 2px 2PX;
+            border: 0px;
+            background-color: fuchsia;
+            border-radius: 5px;
+            cursor: pointer;
+
+        }
+
+        .input_female,
+        .input_male {
+            background-color: cadetblue;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: start !important;
+        }
+
+        .inputs {
+            display: flex;
+            flex-direction: row;
+            padding-bottom: 10px;
+            gap: 20px;
+            
+        }
+        .container_one,
+        .container_two {
+            display: flex;
+            gap: 20px;
+        }
+.lable {
+    font-size: 18px;
+    font-weight: 600;
+}
+.age{
+    gap: 20px;
+   
+}
+.Marital {
+    gap: 20px;
+    font-weight: 200px;
+      
+}
+
+
+
+    </style>
+
+
+</head>
+
+<body>
+    <h1>Assignment</h1>
+    <img src="https://tutlance.com/help/wp-content/uploads/2021/01/online-assignment-help.png" alt="user_photo"
+        height="300px" width="500px" />
+
+    <form action="">
+        <div class="container">
+            <div class="container_one">
+                <div class="First_name">
+                    <label class="lable">First name</label>
+                    <input type="First name" placeholder="Enter your first name" class="input" />
+                </div>
+
+                <div class="last_name">
+                    <label class="lable">Last name</label>
+                    <input type="Last name" placeholder="Enter your last name" class="input" />
+                </div>
+
+            </div>
+            <div class="container_two">
+                <div class="email">
+                    <label class="lable">Email</label>
+                    <input type="Email" placeholder="Enter your email" class="input" />
+                </div>
+
+                <div class="adress">
+                    <label class="lable">Adress</label>
+                    <input type="Adress" placeholder="Enter your adress" class="input" />
+                </div>
+
+            </div>
+            <div class="gender">
+                <label>Gender</label>
+                <div class="inputs">
+                    <div>
+                        <input type="checkbox" />
+                        <span>Male</span>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" />
+                        <span>Female</span>
+                    </div>
+                </div>
+            </div>
+            <div class="age">
+                <Label>Age</Label>
+                    <input type="number">   
+            </div>
+            <div class="marital">
+                <label for="">Marital status</label>
+                <select>
+                    <option>Single</option>
+                    <option>Maried</option>
+                    <option>In a relation</option>
+                </select>
+                
+            
+            </div>
+
+            <div class="button">
+                <button class="button">Submit</button>
+            </div>
+
+
+
+        </div>
+
+    </form>
+
+</body>
+
+
+</html>
