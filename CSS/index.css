@@ -1,0 +1,75 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: aqua;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    width: 800px;
+}
+
+.form_container_one,
+.form_container_two,
+.form_container_three,
+.form_container_four{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.firstname,
+.lastname,
+.email,
+.contact,
+.occupation,
+.social_link,
+.address,
+.age,
+.gender_container,
+.experience,
+.bio{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.label{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.input_text{
+    height: 35px;
+    width: 300px;
+    font-style: italic;
+}
+
+.input_number{
+    height: 25px;
+    width: 80px;
+}
+
+.age_gender{
+    display: flex;
+    gap: 50px;
+}
+
+.gender{
+    display: flex;
+    gap: 50px;
+}
+
+.submit{
+    background-color: rgb(0, 128, 255);
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.submit:hover {
+    background-color: rgb(0, 60, 255);
+}

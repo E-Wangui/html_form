@@ -1,0 +1,109 @@
+.main_container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(12, 154, 201);
+    padding: 10px,20px;
+    margin: 50px;
+    width: 1000px;
+    gap: 30px;
+    
+
+}
+
+.firstname,
+.secondname,
+.lastname,
+.email,
+.adress,
+.occupation,
+.age,
+.gender,
+.social_link,
+.phonenumber
+ {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+    
+
+}
+
+/* .phonenumber{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: fit-content;
+    margin-right: 30px;
+    
+} */
+.cont_one,
+.cont_two,
+.cont_three,
+.cont_four{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+    
+}
+
+
+
+.gender_cont{
+    display: flex;
+    gap: 2px;
+}
+.age{
+    display: flex;
+    gap: 10px;
+    border: 0ch;
+    height: 4ch;
+    width: min-content;
+}
+.label{
+  font-weight: 60px;  
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.input_text{
+height: 15px;
+font-style: italic;
+}
+.gender{
+    display: flex;
+    flex-direction: column;
+}
+.gender_cont{
+    display: flex;
+    flex-direction: column;
+}
+.bio{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+
+}
+.experience{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    gap: 5px;
+}
+.submit{
+    background-color: chartreuse;
+    color: dodgerblue;
+    text-transform: uppercase;
+    padding: 10px,30px;
+    border: 0ch;
+    border-radius:5px ;
+    width: fit-content;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.submit:hover{
+    background-color: aqua;
+}
