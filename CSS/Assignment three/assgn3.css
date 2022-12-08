@@ -1,0 +1,45 @@
+body{
+    /* background-color: yellow; */
+}
+#row{
+    display: flex;
+    flex-direction: row;
+    margin:20px;
+}
+#row2{
+    display: flex;
+    flex-direction: row;
+    /* margin:5px; */
+}
+#heading{
+    width:200px;
+}
+
+input{
+    padding:10px;
+}
+
+#checkbox{
+    padding:10px;
+}
+
+#nameinputs{
+    width: 180px;
+}
+
+#longwidth{
+    width: 390px;
+}
+
+#gender{
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+}
+#street{
+    padding:5px;
+}
+
+#dob{
+    width:110px
+}

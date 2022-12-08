@@ -1,0 +1,67 @@
+.main_container{
+    background-color: dodgerblue;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    gap: 20px;
+}
+div.main_container div{
+display: flex;
+justify-content: space-between;
+
+}
+/* div.main_container div div{
+    display: flex;
+    flex-direction: column;
+} */
+.gender{
+    display: flex;
+}
+.first_name,
+.second_name,
+.adress,
+.occupation,
+.social_link,
+.phone_number,
+.bio,
+.comment,
+.gender_cont,
+.age
+{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.input_text{
+    width: 300px;
+    height: 45px;
+    font-style: italic;
+}
+.textarea{
+    width: 300px;
+}
+button{
+    width: fit-content;
+    border-radius: 5px;
+    border: 0px;
+     padding: 10px 15px;
+     cursor: pointer;
+     color: white;
+     background-color: blue;
+    
+}
+button:hover{
+    background-color: rgb(174, 255, 0);
+}
+.input_number{
+    height: 30px;
+}
+.gender_cont{
+    right: 180px;
+    position: relative;
+
+}
+
+
